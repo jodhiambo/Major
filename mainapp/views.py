@@ -75,7 +75,7 @@ def patner(request):
     return render(request, 'mainapp/index.html', context)
 
 def privacy(request):
-    return render(request, 'mainapp/privacy_policy.html')
+    return render(request, 'mainapp/privacy.html')
 
 def advert(request):
     items = Advert.objects.all()
